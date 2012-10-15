@@ -1,0 +1,115 @@
+.whole-gallery{
+	float: left;
+	margin: 0 15px 15px 0;
+}
+
+.image-home{
+	display: inline; 
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.wp-caption {
+	position: relative;
+	margin-bottom: 20px;
+	border: 3px solid #999;
+	overflow: hidden;
+	-moz-border-radius: 2px;
+	-khtml-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.wp-caption-text {
+	margin: 0;
+	padding: 5px 10px;
+	background-color: #333;
+	color: #EEE;
+	border-top: 1px solid #666;
+}
+
+.clear {
+	clear:both;
+	padding:0;
+	margin:0;
+	width:100%;
+	font-size:0;
+	line-height:0;
+}
+
+/* LAYOUT */
+#header{
+	background:#333;
+	height:40px;
+	border-bottom:1px solid #000;
+	color:#fff;
+	padding:30px 50px;
+}
+#content{
+	min-height:300px;
+	padding:20px 10px;
+	background-color:#FFF;
+}
+#header-bar{
+	text-align:right;
+}
+#sidebar-menu{
+	float:left;
+	background-color:#eee;
+	width:25%;
+	min-height:200px;
+}
+#sidebar-menu ul.menu{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+ul.menu li{
+	background-color:#515151;
+	border-bottom:2px solid #9C9C9C;
+	padding:5px 20px 5px 5px;
+	text-align:right;
+}
+ul.menu li a:link,ul.menu li a:visited{
+	color:#FFF!important;
+}
+ul.menu li a:hover,ul.menu li:hover a{
+	color:#333!important;
+}
+ul.menu li:hover{
+	background-color:#EFEFEF;
+}
+#main-content{
+	float:left;
+	width:70%;
+	padding:10px;
+}
+#footer{
+	background-color:#333;
+	height:30px;
+	text-align:center;
+	width:100%;
+	color:#fff;
+	padding-top:10px;
+	font-size:12px;
+}
+
+/* ELEMENT */
+#header h2{
+	font-size:30px;
+	margin:0px;
+}
+#content a:link {
+	color: #0066cc;
+	text-decoration:none;
+}
+#content a:active,
+#content a:hover {
+	color: #59BAFF;
+}
+.title{
+	font-size:30px;
+	border-bottom:1px solid #333;
+	margin-bottom:15px;
+	font-family: "neue_sans_bold",Trebuchet,"Trebuchet MS",Helvetica,sans-serif;
+}
